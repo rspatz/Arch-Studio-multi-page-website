@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Arch Studio Website Challenge</title>
+  </head>
+  <body>
+      <div class="container">
+        <div class="flex">
+          
+          <navigation class="main-nav" id="main-nav">
+            <div class="nav-header">         
+    
+              <img src="assets/logo.svg" />
+  
+              <button class="hamburger" id="hamburger">
+                <img class= "close" 
+                src="assets/icons/icon-hamburger.svg" alt="open" />
+                <img class="open" src="./assets/icons/icon-close.svg" alt="close" />
+              </button>
+            </div>
+  
+            <ul class="show" id="menu">
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>        
+        </div>
+        <!-- END Flex -->
+      </div>
+      <!-- END Container -->
+    </navigation>
+
+    <div class="rotate">
+      <h4>Home</h4>
+    </div>    
+
+    <!-- Widescreen Version -->
+    <header class="header">
+      <!-- Slideshow container -->
+    <div class="slideshow-container fade">
+
+      <!-- Full images with numbers and message Info -->
+      <div class="Containers">
+        
+        <img src="./assets/home/desktop/image-hero-paramour.jpg" >
+        <div class="Info">
+          <h1>Project Paramour</h1>
+          <p>
+            Project made for an art museum near Southwest London. Project Paramour
+            is a statement of bold, modern architecture.
+          </p>
+
+          <div class="portfolio-btn-header"><a href="portfolio.html">See Our Portfolio</a></div>
+          </div>
+        </div>
+      
+
+      <div class="Containers">
+        
+        <img src="./assets/home/desktop/image-hero-seraph.jpg">
+          <div class="Info">
+            <h1>Seraph Station</h1>
+            <p>
+              The Seraph Station project challenged us to
+              design a unique station that would transport people through time. The result
+              is a fresh and futuristic model inspired by space stations.
+            </p>
+            <div class="portfolio-btn-header"><a href="portfolio.html">See Our Portfolio</a></div>
+            </div>
+          </div>
+      
+
+      <div class="Containers">
+       
+        <img src="./assets/home/desktop/image-hero-federal.jpg">
+          <div class="Info">
+            <h1>Federal II Tower</h1>
+            <p>
+              A sequel theme project for a tower originally
+              built in the 1800s. We achieved this with a striking look of brutal
+              minimalism with modern touches.
+            </p>
+            <div class="portfolio-btn-header"><a href="portfolio.html">See Our Portfolio</a></div>
+            </div>
+          </div>
+
+          <div class="Containers">
+       
+            <img src="./assets/home/desktop/image-hero-trinity.jpg">
+              <div class="Info">
+                <h1>Trinity Bank Tower</h1>
+                <p>
+                  Trinity Bank challenged us to make a concept for an 84 story building located in the
+              middle of a city with a high earthquake frequency. For this project we used
+              curves to blend design and stability to meet our objectives.
+                </p>
+                <div class="portfolio-btn-header"><a href="portfolio.html">See Our Portfolio</a></div>
+                </div>
+              </div>
+        </div>
+
+      <!-- Back and forward buttons -->
+      <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    </header><!-- END Widescreen Version -->
+
+    <!-- Mobile Version -->
+    <div class="carousel">
+      <div class="image-container" id="imgs">
+        <header class="header-1">
+          <div class="header-content">
+            <h1>Project Paramour</h1>
+            <p>
+              Project made for an art museum near Southwest London. Project Paramour
+              is a statement of bold, modern architecture.
+            </p>
+    
+            <div class="portfolio-btn-header"><a href="portfolio.html">See Our Portfolio</a></div>
+            </div>
+        </header><!-- END Mobile Version -->
+
+        <section class="welcome-section">    
+          <div class="container">
+            <div class="flex">
+              <div class="welcome-content">
+                <h2>Welcome</h2>
+                <h3>Welcome to Arch Studio</h3>
+                <p>
+                  We have a unique network and skillset to help bring your projects
+                  to life. Our small team of highly skilled individuals combined
+                  with our large network put us in a strong position to deliver
+                  exceptional results.
+                </p>
+    
+                <p>
+                  Over the past 10 years, we have worked on all kinds of projects.
+                  From stations to high-rise buildings, we create spaces that
+                  inspire and delight.
+                </p>
+    
+                <p>
+                  We work closely with our clients so that we understand the
+                  intricacies of each project. This allows us to work in harmony with the surrounding area to create truly stunning projects that will stand
+                  the test of time.
+                </p>
+              </div>
+    
+              <div class="welcome-image"></div>
+            </div><!-- END Flex -->
+          </div>
+        </section>
+        <!-- END Welcome Section -->
+    
+        <section class="about-section">
+          <div class="about-content">
+            <h2>Small team, big ideas</h2>
+    
+            <div class="about-btn"><a href="about.html">About Us</a></div>
+          </div>      
+    
+          
+        </section><!-- END About Section -->
+    
+        <section class="featured-section">
+          <div class="container">
+            <div class="featured-mast">
+              <div class="flex">
+                <h3>Featured</h3>
+                <div class="featured-btn"><a href="portfolio.html">See all</a></div>
+              </div>
+            </div>        
+          </div>
+    
+          <div class="container">
+            <div class="flex">
+              <div class="featured-cards">
+                <div class="featured-card-1">
+                  <h3>1</h3>
+                  <h4>Project Del Sol</h4>
+                  <h5><a href="#">View All Projects</a></h5>
+                </div>
+        
+                <div class="featured-card-2">
+                  <h3>2</h3>
+                  <h4>228B Tower</h4>
+                  <h5><a href="#">View All Projects</a></h5>
+                </div>
+                <div class="featured-card-3">
+                  <h3>3</h3>
+                  <h4>Le Prototype</h4>
+                  <h5><a href="#">View All Projects</a></h5>
+                </div>
+              </div>
+            </section><!-- END Featured Secction -->
+            </div>
+          </div>
+          
+    
+        <footer class="footer-home">
+          <div class="container">
+            <div class="flex">       
+        
+              <navigation class="footer-home-nav">
+                <div class="logo">
+                  <img src="assets/logo.svg" />
+                </div>
+    
+                <ul>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contact.html">Contact</a></li>              
+                </ul>
+    
+                <div class="portfolio-btn"><a href="portfolio.html">See Our Portfolio</a></div>
+              </navigation>
+            </div>
+          </div>
+          
+          <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+              >Frontend Mentor</a
+            >. Coded by
+            <a href="https://www.linkedin.com/in/robertbspatz/" target="_blank"
+              >Robert B. Spatz</a
+            >.
+          </div>
+        </footer>    
+        
+        <script src="js/script.js"></script>
+      </body>
+    </html>
