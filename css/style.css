@@ -611,7 +611,7 @@ img {
 .portfolio-card-12 h5 {
   font-family: 'Spartan-Medium';
   color: var(--very-light-grey);
-  margin: 0.5em 2.5em;
+  margin: 1em 3.5em;
 }
 
 .portfolio-card-1:hover,
