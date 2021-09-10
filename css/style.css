@@ -601,6 +601,22 @@ img {
   margin: 0.5em 2.5em;
 }
 
+.portfolio-card-1:hover,
+.portfolio-card-2:hover,
+.portfolio-card-3:hover,
+.portfolio-card-4:hover,
+.portfolio-card-5:hover,
+.portfolio-card-6:hover,
+.portfolio-card-7:hover,
+.portfolio-card-8:hover,
+.portfolio-card-9:hover,
+.portfolio-card-10:hover,
+.portfolio-card-11:hover,
+.portfolio-card-12:hover {
+  opacity: 75%;
+  transition: 0.5s ease;
+}
+
 .portfolio-card-1 {
   background: linear-gradient(rgba(28, 23, 51, 0.2), rgba(28, 25, 37, 0.2)),
     url(../assets/portfolio/desktop/image-seraph.jpg) no-repeat center
