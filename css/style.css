@@ -1155,14 +1155,14 @@ img {
   .footer-portfolio,
   .footer-about {
     width: 100%;
-    margin: 5em 0 0 0;
+    margin: 7em 0 0 0;
     height: 70vh;
   }
 
   .footer-home .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 170em;
+    top: 165em;
     left: 33%;
   }
 
