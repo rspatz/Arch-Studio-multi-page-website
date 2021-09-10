@@ -1074,7 +1074,7 @@ img {
   /* Featured Section */
 
   .featured-section {
-    height: 50vh;
+    height: 55vh;
     width: 100%;
     margin: 5em auto;
     margin-bottom: 50em;
@@ -1167,14 +1167,14 @@ img {
   .footer-home .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 175em;
+    top: 173em;
     left: 33%;
   }
 
   .footer-portfolio .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 200em;
+    top: 201em;
     left: 33%;
   }
 
@@ -1193,7 +1193,7 @@ img {
   .footer-about-nav a {
     font-family: 'Spartan-Medium';
     text-decoration: none;
-    color: var(--medium-grey);
+    color: var(--dark-grey);
   }
 
   .footer-home-nav ul,
@@ -1223,6 +1223,7 @@ img {
     font-size: 0.8em;
     color: #fff;
     text-decoration: none;
+    width: 90%;
   }
 }
 
