@@ -1092,7 +1092,7 @@ img {
 
   .featured-btn {
     position: absolute;
-    top: 169em;
+    top: 168em;
     width: 65%;
     margin: 0;
     margin-bottom: 5em;
@@ -1167,7 +1167,7 @@ img {
   .footer-home .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 174em;
+    top: 174.5em;
     left: 33%;
   }
 
