@@ -400,7 +400,7 @@ img {
   background: var(--very-dark-blue);
   padding: 1em 2.5em;
   display: inline-block;
-  margin: 0 0 0 47em;
+  margin: 0 0 0 45em;
 }
 
 .featured-btn a {
@@ -1034,7 +1034,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0;
+    margin: 0 0 3em 0;
     padding: 0;
   }
 
@@ -1193,9 +1193,9 @@ img {
   .footer-home .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 169em;
+    top: 166em;
     left: 33%;
-    margin-top: 3em;
+    margin-top: 5em;
   }
 
   .footer-portfolio .logo {
