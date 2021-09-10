@@ -115,8 +115,21 @@ li a:hover {
   right: 74em;
 }
 
+.rotate-about {
+  transform: rotate(90deg);
+  z-index: 100;
+  position: absolute;
+  top: 14em;
+  right: 76em;
+}
+
+span {
+  color: var(--medium-grey);
+}
+
 .rotate h4,
-.rotate-portfolio h4 {
+.rotate-portfolio h4,
+.rotate-about h4 {
   font-family: 'Spartan-Medium';
   font-size: 0.8em;
   letter-spacing: 1em;
@@ -788,9 +801,10 @@ img {
 
 .leaders-section h4 {
   font-family: 'Spartan-Medium';
+  font-size: 1em;
   font-weight: 400;
   color: var(--very-dark-grey);
-  margin: 21.5em 0 0 0;
+  margin: 14em 0 0 0.25em;
 }
 
 .leaders-section h5 {
@@ -798,7 +812,7 @@ img {
   font-size: 0.8em;
   font-weight: 300;
   color: var(--dark-grey);
-  margin: 0.5em 0 0 0;
+  margin: 0.5em 0 0 0.25em;
 }
 
 .leaders-heading {
@@ -823,6 +837,20 @@ img {
   width: 20em;
   margin: 3em 0 3em 0;
   margin-right: 2em;
+}
+
+.social .flex {
+  display: flex;
+  flex-direction: column;
+  align-items: unset;
+  margin: 0.5em;
+  opacity: 60%;
+}
+
+.social li {
+  list-style-type: none;
+  cursor: pointer;
+  margin-bottom: 1em;
 }
 
 .leaders-image-1:hover,
@@ -999,6 +1027,7 @@ img {
   .welcome-section {
     display: flex;
     flex-direction: column;
+    margin-top: 3em;
   }
 
   .welcome-content {
@@ -1019,9 +1048,6 @@ img {
     margin: 1em auto;
   }
 
-  .welcome-section {
-    margin-top: 5em;
-  }
   .welcome-image {
     display: none;
   }
@@ -1167,7 +1193,7 @@ img {
   .footer-home .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 174.5em;
+    top: 174em;
     left: 33%;
   }
 
