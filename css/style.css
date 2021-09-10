@@ -1193,9 +1193,9 @@ img {
   .footer-home .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 170em;
+    top: 169em;
     left: 33%;
-    margin-top: 2em;
+    margin-top: 3em;
   }
 
   .footer-portfolio .logo {
