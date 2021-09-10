@@ -1095,7 +1095,12 @@ img {
     top: 171em;
     width: 65%;
     margin: 0;
+    margin-bottom: 5em;
     padding: 1em 6.2em;
+  }
+
+  .featured-btn a {
+    width: 80%;
   }
 
   .featured-cards {
@@ -1162,7 +1167,7 @@ img {
   .footer-home .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 171em;
+    top: 175em;
     left: 33%;
   }
 
