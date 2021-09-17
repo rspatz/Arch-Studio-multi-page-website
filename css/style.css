@@ -1425,7 +1425,7 @@ img {
   .footer-portfolio .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 199em;
+    top: 201em;
     left: 33%;
     z-index: 0;
   }
