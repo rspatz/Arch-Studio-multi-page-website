@@ -1441,7 +1441,7 @@ img {
   .footer-contact .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 160em;
+    top: 140em;
     left: 33%;
     z-index: 0;
   }
