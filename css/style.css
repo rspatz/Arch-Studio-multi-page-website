@@ -1433,7 +1433,7 @@ img {
   .footer-about .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 182em;
+    top: 183em;
     left: 33%;
     z-index: 0;
   }
