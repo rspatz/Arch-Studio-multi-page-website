@@ -1433,7 +1433,7 @@ img {
   .footer-about .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 240em;
+    top: 200em;
     left: 33%;
     z-index: 0;
   }
@@ -1441,7 +1441,7 @@ img {
   .footer-contact .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 78em;
+    top: 200em;
     left: 33%;
     z-index: 0;
   }
