@@ -1714,7 +1714,7 @@ img {
   /* Leaders Section */
   .leaders-section {
     flex-direction: column;
-    height: 300vh;
+    height: 290vh;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 5em;
