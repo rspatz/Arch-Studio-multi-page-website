@@ -1988,8 +1988,7 @@ img {
 
   /* Attribution */
   .attribution {
-    margin-top: 5em;
     width: 70%;
-    margin: 3em auto;
+    margin: 1em auto;
   }
 }
