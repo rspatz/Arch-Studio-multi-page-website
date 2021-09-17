@@ -1410,7 +1410,7 @@ img {
   .footer-about,
   .footer-contact {
     width: 100%;
-    margin: 5em 0 0 0;
+    margin: 10em 0 0 0;
     height: 70vh;
   }
 
@@ -1433,7 +1433,7 @@ img {
   .footer-about .logo {
     background: var(--medium-grey);
     position: absolute;
-    top: 184em;
+    top: 182em;
     left: 33%;
     z-index: 0;
   }
