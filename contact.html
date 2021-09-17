@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Arch Studio Website Challenge</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex">
+
+        <navigation class="main-nav" id="main-nav">
+          <div class="nav-header">         
+  
+            <img src="assets/logo.svg" />
+
+            <button class="hamburger" id="hamburger">
+              <img class= "close" 
+              src="assets/icons/icon-hamburger.svg" alt="open" />
+              <img class="open" src="./assets/icons/icon-close.svg" alt="close" />
+            </button>
+          </div>
+
+          <ul class="show" id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>        
+      </div>
+      <!-- END Flex -->
+    </div>
+    <!-- END Container -->
+  </navigation>
+
+  <div class="rotate-contact">
+    <h4>Contact</h4>
+  </div>
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="flex">
+          <div class="contact-image"></div>
+          <div class="contact-content">
+            <h1>Contact</h1>
+            <h3>Tell us about your project</h3>
+            <p>
+              We’d love to hear more about your project. Please, leave a message
+              below or give us a call. We have two offices, one in Texas and one
+              in Tennessee. If you find yourself nearby, come say hello!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- END Contact Section -->
+
+    <section class="contact-details-section">
+      <div class="container">
+        <div class="flex">
+          <div class="contact-details">
+            <h3>Contact Details</h3>
+          </div><!-- END Contact Details -->
+          <div class="main-office">
+            <h5>Main Office</h5>
+            <p>Mail: archone@mail.com</p>
+            <p>Address: 1892 Chenoweth Drive TN</p>
+            <p>Phone: 123-456-3451</p>           
+
+            <div class="contact-btn"><a href="#">View on Map  
+              <img src="./assets/icons/icon-arrow.svg" alt="View on Map">
+            </a></div>           
+            
+          </div>
+
+          <div class="office-2">
+            <h5>Office II</h5>
+            <p>Mail: archtwo@mail.com</p>
+            <p>Address: 3399 Wines Lane TX</p>
+            <p>Phone: 832-123-4321</p>          
+            
+            <div class="contact-btn"><a href="#">View on Map
+              <img src="./assets/icons/icon-arrow.svg" alt="View on Map">
+            </a></div>  
+          </div>
+        </div>
+      </div>
+    </section><!-- END Contact Details Section -->
+
+    <div class="locator-map">
+      <div class="map-image"></div>
+    </div>
+
+    <section class="connect">
+      <div class="container">
+        <div class="flex">
+
+          <div class="connect-header">
+            <h3>Connect with us</h3>
+          </div><!-- END Connect Header -->
+
+          <div class="contact-form">
+            <form id="form" class="form">
+              <div class="form-control">
+                <input type="text" id="username" placeholder="Name">
+                <small>Error Message</small>
+              </div>
+              <div class="form-control">
+                <input type="email" id="email" placeholder="Email">
+                <small>Error Message</small>
+              </div>
+              <div class="form-control">
+              <input type="text" id="text" placeholder="Message">
+              <small>Error Message</small>
+              </div>
+              <button>
+                <img src="./assets/icons/icon-arrow.svg" alt="Enter Info">
+            </button>
+            </form>
+        </div>
+      </div>
+    </section><!-- END Connect Section -->
+
+    <footer class="footer-contact">
+      <div class="container">
+        <div class="flex">       
+    
+          <navigation class="footer-contact-nav">
+            <div class="logo">
+              <img src="assets/logo.svg" />
+            </div>
+
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>              
+            </ul>
+
+            <div class="portfolio-btn"><a href="portfolio.html">See Our Portfolio</a></div>
+          </navigation>
+        </div>
+      </div>
+    
+    </footer>
+    
+    <div class="attribution">
+      <h4>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/robertbspatz/" target="_blank"
+        >Robert B. Spatz</a>.</h4>
+    </div>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>
